@@ -33,11 +33,9 @@ class SelectionSortTest {
 
 	SelectionSort aot = new SelectionSort();
 
-<<<<<<< HEAD
+
 		int[]  array = {-1,-2,-3,-4,-5,-6,-7};
-=======
-		int[]  array = {-2,-1,-3,-4,-5,-6,-10};
->>>>>>> WorkersA
+
 		assertEquals(1, aot.checkNegatives(array));
 	}
 
@@ -46,11 +44,8 @@ public void CheckMixedTest() {
 
 		SelectionSort aot = new SelectionSort();
 
-<<<<<<< HEAD
 		int[]  array = {-2,-1,0,3,4,-6,-7};
-=======
-		int[]  array = {-1,-2,0,4,5,-6,-7};
->>>>>>> WorkersA
+
 		assertEquals(1, aot.checkMixed(array));
 	}
 	@Test
@@ -58,11 +53,7 @@ public void CheckDuplicate() {
 
 		SelectionSort aot = new SelectionSort();
 
-<<<<<<< HEAD
 		int[]  array = {-2,-1,-1,4,5,-6,-8};
-=======
-		int[]  array = {-1,2,-1,4,5,-6,-7};
->>>>>>> WorkersA
 		assertEquals(1, aot.checkDuplicates(array));
 	}
 }
